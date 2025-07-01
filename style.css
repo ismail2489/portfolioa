@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+:root{
+    --bgcolor : #080808;
+    --textwhite : #fff;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #080808;
+}
+::-webkit-scrollbar-thumb{
+    background-color: yellow;
+    border-radius: 7px;
+    position: absolute;
+    cursor: grab;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #080808;
+}
+.hero header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+}
+.hero header nav .logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--textwhite);
+}
+.hero header nav .logo span{
+    color: yellow;
+}
+.hero header nav .nav-links a{
+    color: var(--textwhite);
+    margin: 0 30px;
+    transition: 0.3s;
+}
+.hero header nav .nav-links a .active{
+    color: yellow;
+}
+.hero nav .nav-links a:hover{
+    color: yellow;
+}
+.hero header nav .btn-mode{
+    color: var(--textwhite);
+    font-size: 25px;
+    cursor: pointer;
+}
+.hero .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+.hero .container .div-text{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+.hero .container .div-img{
+    position: absolute;
+    width: 34%;
+    bottom: 5px;
+    margin-right: 50px;
+}
+.hero .container .div-img img{
+    width: 100%;
+}
+.hero .container .div-text h4{
+    color: #888;
+    font-size: 22px;
+}
+.hero .container .div-text h1{
+    color: var(--textwhite);
+    font-size: 60px;
+    margin: 15px 0 10px;
+}
+.hero .container .div-text span{
+    color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hero .container .div-text p{
+    color: var(--textwhite);
+    line-height: 1.8;
+    margin: 20px 0 40px;
+}
+.hero .container .div-text .btn{
+    color: #fff;
+    background: yellow;
+    padding: 15px 30px;
+    border: 1px solid yellow;
+    position: relative;
+    top: 0;
+    transition: 0.3s;
+}
+.hero .container .div-text .btn:hover{
+    top: -8px;
+    box-shadow: 0 0 16px yellow;
+}
+.social-icon{
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    right: -30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.social-icon a{
+    color: yellow;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.social-icon a:hover{
+    transform: scale(1.4);
+}
+
+
+
+                                                     /*resume*/
+
+
+
+.hero1{
+    width: 100%;
+    height: 100%;
+    background-color: #080808;
+}
+.hero1 header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+}
+.hero1 header nav .logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--textwhite);
+}
+.hero1 header nav .logo span{
+    color: yellow;
+}
+.hero1 header nav .nav-links a{
+    color: var(--textwhite);
+    margin: 0 30px;
+    transition: 0.3s;
+}
+.hero1 nav .nav-links a:hover{
+    color: yellow;
+}
+.hero1 header nav .btn-mode{
+    color: var(--textwhite);
+    font-size: 25px;
+    cursor: pointer;
+}
+.hero1 .container{
+    width: 90%;
+    margin: auto;
+    justify-content:end;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.hero1 .container h1{
+    color: yellow;
+    font-weight:600;
+    font-size: 60px;
+    margin: auto;
+    padding: 50px;
+}
+.hero1 .container .title{
+    color: var(--textwhite);
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.hero1 .container .title i{
+    padding-right: 10px;
+}
+.hero1 .container ul li{
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.hero1 .container ul li h3{
+    color: #888;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.hero1 .container ul li h3 i{
+    padding-right: 10px;
+}
+.hero1 .container ul li span{
+    color: yellow;
+    font-size:15px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.hero1 .container ul li p{
+    color: var(--textwhite);
+}
+.hero1 .container .title1{
+    color: var(--textwhite);
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.hero1 .container .title1 i{
+    padding-right: 10px;
+}
+
+                                               /*projects*/
+
+
+.hero2{
+    width: 100%;
+    height: 100%;
+    background-color: #080808;
+}
+.hero2 header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+}
+.hero2 header nav .logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--textwhite);
+}
+.hero2 header nav .logo span{
+    color: yellow;
+}
+.hero2 header nav .nav-links a{
+    color: var(--textwhite);
+    margin: 0 30px;
+    transition: 0.3s;
+}
+.hero2 nav .nav-links a:hover{
+    color: yellow;
+}
+.hero2 header nav .btn-mode{
+    color: var(--textwhite);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hero2 .container h1{
+    color: yellow;
+    font-weight:600;
+    font-size: 60px;
+    margin: auto;
+    padding: 50px;
+    margin-left: 65px;
+}
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(3 .1fr);
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+}
+.projects-container .projects-box{
+    position: relative;
+    border-radius: 3rem;
+    box-shadow: 0 0 1rem #fff;
+    overflow: hidden;
+    display: flex;
+    height: 300px;
+    margin: 0 100px;
+    background: #080808;
+}
+.projects-box img{
+    width: 300px;
+    transition: .5s ease;
+    opacity: 0.8;
+    height: 300px;
+    position: absolute;
+}
+.projects-box:hover img{
+    transform: scale(1.1);
+}
+.projects-box .projects-layer{
+    position: absolute;
+    bottom: 130px;
+    left: 100px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 5rem;
+    transform: translateY(50%);
+    transition: .5s ease;
+    color: yellow;
+}
+.projects-box:hover .projects-layer{
+    transform: translateY(0);
+}
+.projects-layer h4{
+    font-size: 3rem;
+}
+.projects-layer p{
+    font-size: 1.8rem;
+    margin: 3rem 0 1rem;
+    color: #fff;
+}
+.projects-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: #fff;
+    border-radius: 50%;
+}
+.projects-layer a i{
+    font-size: 2rem;
+    color: yellow;
+}
+
+
+
+                                                /*contact*/
+
+
+
+.hero3{
+    width: 100%;
+    height: 10 00px;
+    background-color: #080808;
+}
+.hero3 header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+}
+.hero3 header nav .logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--textwhite);
+}
+.hero3 header nav .logo span{
+    color: yellow;
+}
+.hero3 header nav .nav-links a{
+    color: var(--textwhite);
+    margin: 0 30px;
+    transition: 0.3s;
+}
+.hero3 nav .nav-links a:hover{
+    color: yellow;
+}
+.hero3 header nav .btn-mode{
+    color: var(--textwhite);
+    font-size: 25px;
+    cursor: pointer;
+}
+.hero3 .container h1{
+    color: yellow;
+    font-weight:600;
+    font-size: 60px;
+    margin: auto;
+    padding: 50px;
+    margin-left: 65px;
+}
+form{
+    max-width: 70rem;
+    margin: 0 7rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    width: 80%;
+}
+form .input-box{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+form .input-box input, 
+form textarea{
+    width: 100%;
+    padding: 2.3rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #000000;
+    border-radius: 6rem;
+    margin-top: 10px;
+    background-color: #3b3b3b;
+}
+form .input-box input{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+form textarea input{
+    margin-right: 20px;
+}
+form .btn{
+    color: #fff;
+    background: yellow;
+    padding: 15px 30px;
+    border: 1px solid yellow;
+    position: relative;
+    top: 20px;
+    transition: 0.3s;
+    font-size: 20px;
+    border-radius: 3rem;
+}
+form .btn:hover{
+    box-shadow: 0 0 10px yellow;
+}
+
+
